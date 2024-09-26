@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 15px 30px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-download {
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('concert-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.events {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.event {
+    background-color: #444;
+    width: 22%;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+}
+
+.event-info {
+    padding: 20px;
+}
+
+.event-info .date {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.event-info h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.event-info p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}

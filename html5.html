@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML 5</title>
+    <style>
+        /* Gaya umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .wrapper {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header dan Navigasi */
+        header {
+            background-color: #3D657F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #3D657F;
+        }
+
+        /* Courses */
+        .courses {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            width: 48%;
+            box-shadow: 0px 4px 10px #5c98bf(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        article img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        hgroup h2 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        hgroup h3 {
+            color: #777;
+            margin-top: 0;
+        }
+
+        p {
+            color: #555;
+        }
+
+        /* Aside */
+        aside {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .popular-recipes a {
+            display: block;
+            text-decoration: none;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .popular-recipes a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+        }
+
+        .contact-details p {
+            color: #333;
+        }
+
+        /* Gaya tambahan untuk figcaption */
+        figure figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Hover efek untuk artikel */
+        article:hover {
+            transform: scale(1.02);
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Kantin Informatika</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Daftar Makan</a></li>
+                    <li><a href="#">Katering</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="th.jpeg" alt="Soto"/>
+                    <figcaption>Soto Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Soto Ayam</h2>
+                    <h3>Makanan Berkuah</h3>
+                </hgroup>
+                <p>Soto Ayam adalah makanan khas Indonesia berupa sup ayam dengan kuah kuning.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="th (2).jpeg" alt="Nasi Cawuk"/>
+                    <figcaption>Nasi Cawuk</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Nasi Cawuk</h2>
+                    <h3>Makanan dengan perpaduan semanggi dan pepes</h3>
+                </hgroup>
+                <p>Nasi Cawuk adalah makanan khas Banyuwangi yang sangat mantap.</p>
+            </article>
+        </section>
+        <embed type="video/webm" src="WhatsApp Video 2024-09-26 at 20.50.23_1fc80dc7.mp4" width="400" height="200">
+ 
+
+        <aside>
+            <section class="popular-recipes">
+                <h2>Masakan Populer</h2>
+                <a href="#">Soto Ayam</a>
+                <a href="#">Nasi Cawuk</a>
+            </section>
+            <section class="contact-details">
+                <h2>Kontak</h2>
+                <p>Kantin Informatika</p>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>
