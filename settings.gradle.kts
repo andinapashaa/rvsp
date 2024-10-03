@@ -22,3 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "tugas 2"
 include(":app")
 include(":app")
+include(":app")
+ 

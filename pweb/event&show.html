@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundAMP Event</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2b2b2b;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffcc00;
+        }
+        .container {
+            padding: 20px;
+        }
+        .event-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .event-header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .events {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .event {
+            background-color: #3b3b3b;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            flex-basis: 22%;
+            box-sizing: border-box;
+        }
+        .event img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .event h3 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .event p {
+            margin: 10px 0;
+        }
+        .event .date {
+            color: #999;
+            font-size: 14px;
+        }
+        .event .tags {
+            font-size: 12px;
+            color: #ffcc00;
+        }
+        .event a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SoundAMP</h1>
+    </header>
+
+    <div class="container">
+        <div class="event-header">
+            <img src="th.jpg" alt="All Event">
+            <h2>ALL EVENT</h2>
+        </div>
+        <div class="events">
+            <!-- Night Laser Show -->
+            <div class="event">
+                <img src="Screenshot 2024-09-18 234212.png" alt="Night Laser Show">
+                <div class="date">10/05/2018</div>
+                <h3>Night Laser Show</h3>
+                <div class="tags">#hip-hop #rnb #dance</div>
+                <p>We are happy to announce this special laser show.</p>
+                <a href="#">See more...</a>
+            </div>
+
+            <!-- Live Music -->
+            <div class="event">
+                <img src="th (17).jpg" alt="Live Music">
+                <div class="date">14/05/2018</div>
+                <h3>Live Music</h3>
+                <div class="tags">#live #rock #alternative</div>
+                <p>Special event for our rock fans! Live music show.</p>
+                <a href="#">See more...</a>
+            </div>
+
+            <!-- DJ Master Class -->
+            <div class="event">
+                <img src="th (1).jpg" alt="DJ Master Class">
+                <div class="date">10/04/2018</div>
+                <h3>DJ - Master Class</h3>
+                <div class="tags">#dj #master-class</div>
+                <p>DJ WoodSmell will teach you new tricks: please sign up.</p>
+                <a href="#">See more...</a>
+            </div>
+
+            <!-- Best Night Party -->
+            <div class="event">
+                <img src="th (2).jpg" alt="Best Night Party">
+                <div class="date">10/04/2018</div>
+                <h3>Best Night Party</h3>
+                <div class="tags">#party #club</div>
+                <p>Our traditional event: best hits all night long.</p>
+                <a href="#">See more...</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
